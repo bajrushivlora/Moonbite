@@ -1,0 +1,85 @@
+
+// #shopmodal {
+//     height: 100%;
+//     width: 100%;
+//     position: fixed;
+//     z-index: 1;
+//     left: 0;
+//     top: 0;
+//     background-color: #bda397;
+//     opacity: 0.8;
+//     transition: 1s ease;
+// }
+
+.shop {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    width: 100%;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    background-color: #bda397;
+    opacity: 0.9;
+    transition: 1s ease;
+
+    &_top {
+        flex: 1 0;
+        position: relative;
+        margin-top: 100px; /* 25% from the top */
+        width: 100%; /* 100% width */
+        text-align: center; /* Centered text/links */
+        opacity: 0;
+        transition: opacity 1s ease-in;
+    }
+
+    &_toptext {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 50px;
+        color: white;
+        text-align: center; /* Centered text/links */
+        opacity: 0;
+        transition: opacity 1s ease-in;
+        margin: 0px 50px 0px 50px;
+    }
+
+    &_bottom {
+        flex: 1 0;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0px 50px 0px 50px;
+        font-size: 50px;
+        color: white;
+        text-align: center; /* Centered text/links */
+        opacity: 0;
+        transition: opacity 1s ease-in;
+    }
+
+    &_exit {
+        flex: 1 0;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        opacity: 0;
+        transition: opacity 1s ease-in;
+        margin: 0px 50px 0px 50px;
+    }
+}
+
+#exitbtn {
+    transition: 0.3s;
+    transition-timing-function: linear;
+}
+
+#exitbtn:hover {
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+#countdown {
+    margin-top: 0px;
+    font-weight: bold;
+}

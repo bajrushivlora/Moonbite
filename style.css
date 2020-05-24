@@ -1,3 +1,158 @@
-body {
-    color: red;
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  transition: 0.2s;
 }
+.header_left {
+  flex: 1 0;
+  display: flex;
+  flex-flow: column wrap;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  line-height: 30px;
+}
+.header_left1 {
+  color: var(--menu);
+  text-decoration: none;
+}
+.header_left1:hover {
+  color: var(--menu);
+  text-decoration: underline;
+}
+.header_left1:visited {
+  text-decoration: none;
+}
+.header_middle {
+  flex: 2 0;
+  text-align: center;
+}
+.header_middle-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.header_right {
+  display: flex;
+  flex: 1 0;
+  justify-content: flex-end;
+}
+.header_righticon {
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  border: 1.5px solid var(--moonbite);
+  background-color: var(--bkgd3);
+  margin-right: 20px;
+  box-shadow: 1.5px 1.5px 2px 2px #ccc;
+  transition: linear 0.4s;
+}
+
+:root {
+  --bkgd2: #c7e0ba;
+  --bkgd3: #ffeae0;
+  --bkgd4: #e0eaff;
+  --moonbite: #981c5b;
+  --menu: #981c5b;
+}
+
+body {
+  padding: 50px;
+  margin: 0;
+  width: auto;
+  min-height: 100vh;
+  background-color: var(--bkgd3);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.fab.fa-instagram, .fab.fa-youtube {
+  color: var(--moonbite);
+  transform: scale(1.4);
+  transition: linear 0.4s;
+}
+
+.content {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 150px;
+}
+
+.shop {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #bda397;
+  opacity: 0.9;
+  transition: 1s ease;
+}
+.shop_top {
+  flex: 1 0;
+  position: relative;
+  margin-top: 100px;
+  /* 25% from the top */
+  width: 100%;
+  /* 100% width */
+  text-align: center;
+  /* Centered text/links */
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+.shop_toptext {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  /* Centered text/links */
+  opacity: 0;
+  transition: opacity 1s ease-in;
+  margin: 0px 50px 0px 50px;
+}
+.shop_bottom {
+  flex: 1 0;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px 50px 0px 50px;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  /* Centered text/links */
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+.shop_exit {
+  flex: 1 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+  margin: 0px 50px 0px 50px;
+}
+
+#exitbtn {
+  transition: 0.3s;
+  transition-timing-function: linear;
+}
+
+#exitbtn:hover {
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+#countdown {
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.header_left {
+  flex: 1 0;
+  display: flex;
+}
+.header_middle {
+  flex: 1 0;
+}
+.header_right {
+  flex: 1 0;
+}
+
+/*# sourceMappingURL=style.css.map */

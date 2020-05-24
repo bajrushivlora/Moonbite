@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    transition: 0.2s;
+
+    &_left {
+        flex: 1 0;
+        display: flex;
+        flex-flow: column wrap;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    &_left1 {
+        color: var(--menu);
+        text-decoration: none;
+    }
+
+    &_left1:hover {
+        color: var(--menu);
+        text-decoration: underline;
+    }
+
+    &_left1:visited {
+        text-decoration: none;
+    }
+    
+    &_middle {
+        flex: 2 0;
+        text-align: center;
+    }
+
+    &_middle-image {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+    
+    &_right {
+        display: flex;
+        flex: 1 0;
+        justify-content: flex-end;
+    }
+
+    &_righticon {
+        border-radius: 100px;
+        width: 50px;
+        height: 50px;
+        border: 1.5px solid var(--moonbite);
+        background-color: var(--bkgd3);
+        margin-right: 20px;
+        box-shadow: 1.5px 1.5px 2px 2px #ccc;
+        transition: linear 0.4s;
+    }
+}
