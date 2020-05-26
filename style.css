@@ -14,11 +14,11 @@
   line-height: 30px;
 }
 .header_left1 {
-  color: var(--menu);
+  color: white;
   text-decoration: none;
 }
 .header_left1:hover {
-  color: var(--menu);
+  color: white;
   text-decoration: underline;
 }
 .header_left1:visited {
@@ -42,8 +42,8 @@
   border-radius: 100px;
   width: 50px;
   height: 50px;
-  border: 1.5px solid var(--moonbite);
-  background-color: var(--bkgd3);
+  border: 1.5px solid white;
+  background-color: transparent;
   margin-right: 20px;
   box-shadow: 1.5px 1.5px 2px 2px #ccc;
   transition: linear 0.4s;
@@ -62,7 +62,9 @@ body {
   margin: 0;
   width: auto;
   min-height: 100vh;
-  background-color: var(--bkgd3);
+  background-image: url("samplebackground2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 html {
@@ -71,7 +73,7 @@ html {
 }
 
 .fab.fa-instagram, .fab.fa-youtube {
-  color: var(--moonbite);
+  color: white;
   transform: scale(1.4);
   transition: linear 0.4s;
 }
@@ -194,20 +196,20 @@ html {
 }
 .us_1text, .us_2text, .us_3text, .us_4text {
   font-family: "Courier New", Courier, monospace;
-  color: var(--moonbite);
+  color: white;
   font-size: 18px;
   margin: 30px 30px 10px 30px;
   font-weight: bold;
 }
 .us_1text2, .us_2text2, .us_3text2, .us_4text2 {
   font-family: "Courier New", Courier, monospace;
-  color: var(--moonbite);
+  color: white;
   font-size: 15px;
   margin: 0;
 }
 .us_1text3, .us_2text3, .us_3text3, .us_4text3 {
   font-family: "Courier New", Courier, monospace;
-  color: var(--moonbite);
+  color: white;
   font-size: 10px;
   margin-top: 10px;
   font-weight: bold;
@@ -225,7 +227,7 @@ html {
 }
 .intro_header {
   font-family: Namskin;
-  color: var(--moonbite);
+  color: white;
   letter-spacing: -8px;
   font-size: 70px;
   text-align: center;
@@ -233,7 +235,7 @@ html {
 .intro_text {
   margin: 40px 170px 150px 170px;
   font-family: "Courier New", Courier, monospace;
-  color: var(--moonbite);
+  color: white;
   font-size: 15px;
 }
 
