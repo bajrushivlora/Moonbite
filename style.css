@@ -45,7 +45,6 @@
   border: 1.5px solid white;
   background-color: transparent;
   margin-right: 20px;
-  box-shadow: 1.5px 1.5px 2px 2px #ccc;
   transition: linear 0.4s;
 }
 
@@ -53,6 +52,7 @@
   --bkgd2: #c7e0ba;
   --bkgd3: #ffeae0;
   --bkgd4: #e0eaff;
+  --bkgd5: #467999;
   --moonbite: #981c5b;
   --menu: #981c5b;
 }
@@ -65,6 +65,13 @@ body {
   background-image: url("samplebackground2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.vlorabkgd {
+  background-image: url("vloracollage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 html {
@@ -207,18 +214,16 @@ html {
   font-size: 15px;
   margin: 0;
 }
-.us_1text3, .us_2text3, .us_3text3, .us_4text3 {
-  font-family: "Courier New", Courier, monospace;
-  color: white;
-  font-size: 10px;
-  margin-top: 10px;
-  font-weight: bold;
-}
 
 .us_portrait1, .us_portrait2, .us_portrait3, .us_portrait4 {
   width: 100%;
   height: auto;
   object-fit: fill;
+  transition: 0.2s linear;
+}
+
+.us_portrait1:hover, .us_portrait2:hover, .us_portrait3:hover, .us_portrait4:hover {
+  transform: scale(1.1);
 }
 
 .intro {
@@ -237,6 +242,131 @@ html {
   font-family: "Courier New", Courier, monospace;
   color: white;
   font-size: 15px;
+}
+
+.bio {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: start;
+  margin: 0px 130px 0px 130px;
+}
+.bio_image {
+  flex: 1 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  align-items: center;
+  margin-right: 50px;
+}
+.bio_imagevlora {
+  width: 70%;
+  height: 80%;
+  object-fit: fill;
+}
+.bio_hover {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.bio_text {
+  flex: 2 0;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.bottom {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: start;
+  margin: 0px 130px 0px 130px;
+}
+.bottom_funfacts {
+  display: flex;
+  flex-flow: column wrap;
+  margin-right: 50px;
+}
+.bottom_funfacts-header {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.bottom_funfacts-text {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 18px;
+  padding: 0px;
+  list-style-position: inside;
+  margin: 0;
+}
+.bottom_vloraspotify {
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 50px;
+}
+.bottom_vloraspotify-text {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.break1 {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+}
+.break1_text {
+  font-family: Namskin;
+  color: white;
+  letter-spacing: -2px;
+  font-size: 50px;
+}
+
+.break2 {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.break2_text {
+  font-family: Namskin;
+  color: white;
+  letter-spacing: -2px;
+  font-size: 50px;
+}
+
+.break3 {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.break3_text {
+  font-family: Namskin;
+  color: white;
+  letter-spacing: -2px;
+  font-size: 50px;
+}
+
+.horoscope {
+  display: flex;
+  text-align: center;
+}
+.horoscope_text {
+  flex: 1 0;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

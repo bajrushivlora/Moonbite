@@ -14,7 +14,6 @@
         flex-flow: column nowrap;
         text-align: center;
         align-items: center;
-        // margin: 15px;
     }
 
     &_2 {
@@ -23,7 +22,6 @@
         flex-flow: column nowrap;
         text-align: center;
         align-items: center;
-        // margin: 15px;
     }
 
     &_3 {
@@ -32,7 +30,6 @@
         flex-flow: column nowrap;
         text-align: center;
         align-items: center;
-        // margin: 15px;
     }
 
     &_4 {
@@ -41,7 +38,6 @@
         flex-flow: column nowrap;
         text-align: center;
         align-items: center;
-        // margin: 15px;
     }
 
     &_1text, &_2text, &_3text, &_4text {
@@ -59,22 +55,17 @@
         font-size: 15px;
         margin: 0;
     }
-
-    &_1text3, &_2text3, &_3text3, &_4text3 {
-        font-family: 'Courier New', Courier, monospace;
-        color: white;
-        font-size: 10px;
-        margin-top: 10px;
-        font-weight: bold;
-
-    }
 }
-
 
 .us_portrait1, .us_portrait2, .us_portrait3, .us_portrait4 {
     width: 100%;
     height: auto;
     object-fit: fill;
+    transition: 0.2s linear;
+}
+
+.us_portrait1:hover, .us_portrait2:hover, .us_portrait3:hover, .us_portrait4:hover {
+    transform: scale(1.1);
 }
 
 .intro {
@@ -96,3 +87,4 @@
         font-size: 15px;
     }
 }
+

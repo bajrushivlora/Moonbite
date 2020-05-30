@@ -10,13 +10,13 @@ igcircle.addEventListener("mouseenter", instagram);
 igcircle.addEventListener("mouseout", undoinstagram);
 
 function instagram() {   
-    igcircle.style.backgroundColor = "var(--moonbite)";
-    ig.style.color = "white";
+    igcircle.style.backgroundColor = "white";
+    ig.style.color = "black";
 }
 
 function undoinstagram() {
-  igcircle.style.backgroundColor = "var(--bkgd3)";
-  ig.style.color = "var(--moonbite)";
+  igcircle.style.backgroundColor = "transparent";
+  ig.style.color = "white";
 }
 
 yt.addEventListener("mouseenter", youtube);
@@ -25,13 +25,13 @@ ytcircle.addEventListener("mouseenter", youtube);
 ytcircle.addEventListener("mouseout", undoyoutube);
 
 function youtube() {   
-    ytcircle.style.backgroundColor = "var(--moonbite)";
-    yt.style.color = "white";
+    ytcircle.style.backgroundColor = "white";
+    yt.style.color = "black";
 }
 
 function undoyoutube() {
-  ytcircle.style.backgroundColor = "var(--bkgd3)";
-  yt.style.color = "var(--moonbite)";
+  ytcircle.style.backgroundColor = "transparent";
+  yt.style.color = "white";
 }
 
 

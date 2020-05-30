@@ -1,0 +1,138 @@
+.bio {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+    margin: 0px 130px 0px 130px;
+
+    &_image {
+        flex: 1 0;
+        margin: 0;
+        display: flex;
+        flex-flow: column wrap;
+        text-align: center;
+        align-items: center;
+        margin-right: 50px;
+    }
+
+    &_imagevlora {
+        width: 70%;
+        height: 80%;
+        object-fit: fill;
+    }
+
+    &_hover {
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    &_text {
+        flex: 2 0;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        font-size: 16px;
+        line-height: 22px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}
+
+.bottom {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+    margin: 0px 130px 0px 130px;
+
+    &_funfacts {
+        display: flex;
+        flex-flow: column wrap;
+        margin-right: 50px;
+    }
+
+    &_funfacts-header {
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    &_funfacts-text {
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        font-size: 18px;
+        padding: 0px;
+        list-style-position: inside;
+        margin: 0;
+    }
+
+    &_vloraspotify {
+        display: flex;
+        flex-flow: column wrap;
+        margin-left: 50px;
+    }
+
+    &_vloraspotify-text {
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+}
+
+.break1 {
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+
+    &_text {
+        font-family: Namskin;
+        color: white;
+        letter-spacing: -2px;
+        font-size: 50px;
+    }
+}
+
+.break2 {
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    &_text {
+        font-family: Namskin;
+        color: white;
+        letter-spacing: -2px;
+        font-size: 50px;
+    }
+}
+
+.break3 {
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    &_text {
+        font-family: Namskin;
+        color: white;
+        letter-spacing: -2px;
+        font-size: 50px;
+    }
+}
+
+.horoscope {
+    display: flex;
+    text-align: center;
+
+    &_text {
+        flex: 1 0;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

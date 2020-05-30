@@ -2,6 +2,7 @@
     --bkgd2: #c7e0ba;
     --bkgd3: #ffeae0;
     --bkgd4: #e0eaff;
+    --bkgd5: #467999;
     --moonbite: #981c5b;
     --menu: #981c5b;
 }
@@ -11,10 +12,17 @@ body {
     margin: 0;
     width: auto;
     min-height: 100vh;
-    // background-color: var(--bkgd3);
     background-image: url("samplebackground2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.vlorabkgd {
+    // min-height: 100vh;
+    background-image: url("vloracollage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 html {
