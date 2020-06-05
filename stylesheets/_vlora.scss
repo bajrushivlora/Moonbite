@@ -45,6 +45,7 @@
     margin: 0px 130px 0px 130px;
 
     &_funfacts {
+        flex: 2 0;
         display: flex;
         flex-flow: column wrap;
         margin-right: 50px;
@@ -68,6 +69,7 @@
     }
 
     &_vloraspotify {
+        flex: 1 0;
         display: flex;
         flex-flow: column wrap;
         margin-left: 50px;
