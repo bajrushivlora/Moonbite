@@ -74,6 +74,13 @@ body {
   height: 100%;
 }
 
+.jasminebkgd {
+  background-image: url("jasminecollage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
 html {
   margin: 0;
   padding: 0;
