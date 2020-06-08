@@ -4,6 +4,7 @@
   align-items: flex-start;
   justify-content: space-between;
   transition: 0.2s;
+  margin-bottom: 100px;
 }
 .header_left {
   flex: 1 0;
@@ -30,7 +31,7 @@
 }
 .header_middle-image {
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   height: auto;
 }
 .header_right {
@@ -182,6 +183,10 @@ html {
   font-family: Namskin;
   src: url(namskin.otf);
 }
+@font-face {
+  font-family: Magiel;
+  src: url(Magiel-Black.otf);
+}
 .us {
   display: flex;
   flex-flow: row wrap;
@@ -262,7 +267,7 @@ html {
   display: flex;
   flex-flow: row wrap;
   align-items: start;
-  margin: 0px 130px 0px 130px;
+  margin: 50px 130px 0px 130px;
 }
 .bio_image {
   flex: 1 0;
@@ -279,6 +284,7 @@ html {
   object-fit: fill;
 }
 .bio_hover {
+  font-family: "Courier New", Courier, monospace;
   color: white;
   font-size: 12px;
   font-weight: bold;
@@ -338,13 +344,14 @@ html {
 .break1 {
   position: relative;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 .break1_text {
-  font-family: Namskin;
+  font-family: "Roboto Mono", monospace;
   color: white;
-  letter-spacing: -2px;
-  font-size: 50px;
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .break2 {

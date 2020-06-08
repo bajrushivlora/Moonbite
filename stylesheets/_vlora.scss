@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: row wrap;
     align-items: start;
-    margin: 0px 130px 0px 130px;
+    margin: 50px 130px 0px 130px;
 
     &_image {
         flex: 1 0;
@@ -21,7 +21,7 @@
     }
 
     &_hover {
-        // font-family: 'Courier New', Courier, monospace;
+        font-family: 'Courier New', Courier, monospace;
         color: white;
         font-size: 12px;
         font-weight: bold;
@@ -32,13 +32,11 @@
         font-family: 'Roboto Mono', monospace;
         // font-family: 'Courier New', Courier, monospace;
         color: white;
-        // text-shadow: black 0px 0px 10px;
         font-size: 15px;
         line-height: 26px;
         margin-left: 50px;
         margin-top: 20px;
         font-weight: 400;
-        // background: rgba(0, 0, 0, 0.4);
     }
 }
 
@@ -91,13 +89,14 @@
 .break1 {
     position: relative;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
 
     &_text {
-        font-family: Namskin;
+        font-family: 'Roboto Mono', monospace;
         color: white;
-        letter-spacing: -2px;
-        font-size: 50px;
+        letter-spacing: 2px;
+        font-size: 40px;
+        font-weight: 600;
     }
 }
 

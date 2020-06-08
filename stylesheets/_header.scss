@@ -4,6 +4,7 @@
     align-items: flex-start;
     justify-content: space-between;
     transition: 0.2s;
+    margin-bottom: 100px;
 
     &_left {
         flex: 1 0;
@@ -35,7 +36,7 @@
 
     &_middle-image {
         width: 100%;
-        max-width: 400px;
+        max-width: 300px;
         height: auto;
     }
     
