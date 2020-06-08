@@ -19,14 +19,21 @@ body {
 
 .vlorabkgd {
     // min-height: 100vh;
-    background-image: url("vloracollage.jpg");
+    background-image: url("images/vloracollage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
 
 .jasminebkgd {
-    background-image: url("jasminecollage.jpg");
+    background-image: url("images/jasminecollage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.lindabkgd {
+    background-image: url("images/lindacollage.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
