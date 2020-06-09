@@ -35,7 +35,7 @@
     }
 
     &_toptext {
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Roboto Mono', monospace;
         font-size: 50px;
         color: white;
         text-align: center; /* Centered text/links */
@@ -46,7 +46,7 @@
 
     &_bottom {
         flex: 1 0;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Roboto Mono', monospace;
         margin: 0px 50px 0px 50px;
         font-size: 50px;
         color: white;
@@ -57,7 +57,7 @@
 
     &_exit {
         flex: 1 0;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Roboto Mono', monospace;
         font-size: 30px;
         color: white;
         text-align: center;
@@ -81,5 +81,5 @@
 
 #countdown {
     margin-top: 0px;
-    font-weight: bold;
+    font-weight: 600;
 }

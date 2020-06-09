@@ -130,7 +130,7 @@ html {
   transition: opacity 1s ease-in;
 }
 .shop_toptext {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 50px;
   color: white;
   text-align: center;
@@ -141,7 +141,7 @@ html {
 }
 .shop_bottom {
   flex: 1 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   margin: 0px 50px 0px 50px;
   font-size: 50px;
   color: white;
@@ -152,7 +152,7 @@ html {
 }
 .shop_exit {
   flex: 1 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 30px;
   color: white;
   text-align: center;
@@ -175,7 +175,7 @@ html {
 
 #countdown {
   margin-top: 0px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 @font-face {
@@ -282,7 +282,6 @@ html {
   font-family: "Roboto Mono", monospace;
   color: white;
   font-size: 12px;
-  margin-top: 10px;
 }
 .bio_text {
   flex: 2 0;
