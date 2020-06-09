@@ -88,6 +88,13 @@ body {
   height: 100%;
 }
 
+.mandalynbkgd {
+  background-image: url("images/mandalyncollage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
 html {
   margin: 0;
   padding: 0;
