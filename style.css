@@ -282,6 +282,7 @@ html {
   font-family: "Roboto Mono", monospace;
   color: white;
   font-size: 12px;
+  margin-top: 10px;
 }
 .bio_text {
   flex: 2 0;
