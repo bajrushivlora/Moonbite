@@ -75,8 +75,8 @@
     &_header {
         font-family: Namskin;
         color: white;
-        letter-spacing: -8px;
-        font-size: 70px;
+        letter-spacing: -5px;
+        font-size: 60px;
         text-align: center;
     }
 
@@ -84,7 +84,22 @@
         margin: 40px 170px 150px 170px;
         font-family: 'Roboto Mono', monospace;
         color: white;
-        font-size: 15px;
+        font-size: 18px;
+        line-height: 26px;
     }
 }
 
+.header1 {
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    &_text {
+        font-family: Namskin;
+        color: white;
+        letter-spacing: -5px;
+        font-size: 60px;
+        text-align: center;
+    }
+}
