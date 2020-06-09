@@ -4,13 +4,12 @@
     align-items: flex-start;
     justify-content: space-between;
     transition: 0.2s;
-    margin-bottom: 100px;
 
     &_left {
         flex: 1 0;
         display: flex;
         flex-flow: column wrap;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Roboto Mono', monospace;
         font-size: 20px;
         line-height: 30px;
     }

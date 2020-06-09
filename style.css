@@ -4,13 +4,12 @@
   align-items: flex-start;
   justify-content: space-between;
   transition: 0.2s;
-  margin-bottom: 100px;
 }
 .header_left {
   flex: 1 0;
   display: flex;
   flex-flow: column wrap;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 20px;
   line-height: 30px;
 }
@@ -183,10 +182,6 @@ html {
   font-family: Namskin;
   src: url(namskin.otf);
 }
-@font-face {
-  font-family: Magiel;
-  src: url(Magiel-Black.otf);
-}
 .us {
   display: flex;
   flex-flow: row wrap;
@@ -221,14 +216,14 @@ html {
   align-items: center;
 }
 .us_1text, .us_2text, .us_3text, .us_4text {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   color: white;
   font-size: 18px;
   margin: 30px 30px 10px 30px;
-  font-weight: bold;
+  font-weight: 600;
 }
 .us_1text2, .us_2text2, .us_3text2, .us_4text2 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   color: white;
   font-size: 15px;
   margin: 0;
@@ -258,7 +253,7 @@ html {
 }
 .intro_text {
   margin: 40px 170px 150px 170px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   color: white;
   font-size: 15px;
 }
@@ -284,10 +279,9 @@ html {
   object-fit: fill;
 }
 .bio_hover {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   color: white;
   font-size: 12px;
-  font-weight: bold;
 }
 .bio_text {
   flex: 2 0;
@@ -313,19 +307,20 @@ html {
   margin-right: 50px;
 }
 .bottom_funfacts-header {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   color: white;
   font-size: 20px;
-  font-weight: bold;
   margin-bottom: 30px;
+  font-weight: 600;
 }
 .bottom_funfacts-text {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   color: white;
   font-size: 18px;
   padding: 0px;
   list-style-position: inside;
   margin: 0;
+  font-weight: 400;
 }
 .bottom_vloraspotify {
   flex: 1 0;
@@ -334,10 +329,10 @@ html {
   margin-left: 50px;
 }
 .bottom_vloraspotify-text {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   color: white;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 30px;
 }
 
@@ -347,11 +342,10 @@ html {
   margin-top: 150px;
 }
 .break1_text {
-  font-family: "Roboto Mono", monospace;
+  font-family: Namskin;
   color: white;
-  letter-spacing: 2px;
-  font-size: 40px;
-  font-weight: 600;
+  letter-spacing: -2px;
+  font-size: 50px;
 }
 
 .break2 {
@@ -386,10 +380,10 @@ html {
 }
 .horoscope_text {
   flex: 1 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   color: white;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
