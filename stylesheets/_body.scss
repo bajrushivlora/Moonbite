@@ -3,6 +3,7 @@
     --bkgd3: #ffeae0;
     --bkgd4: #e0eaff;
     --bkgd5: #467999;
+    --bkgd6: #c9d1ff;
     --moonbite: #981c5b;
     --menu: #981c5b;
 } 
@@ -52,3 +53,13 @@ html {
     padding: 0;
 }
 
+
+
+#confetti{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+  

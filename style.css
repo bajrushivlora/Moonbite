@@ -53,6 +53,7 @@
   --bkgd3: #ffeae0;
   --bkgd4: #e0eaff;
   --bkgd5: #467999;
+  --bkgd6: #c9d1ff;
   --moonbite: #981c5b;
   --menu: #981c5b;
 }
@@ -98,6 +99,14 @@ body {
 html {
   margin: 0;
   padding: 0;
+}
+
+#confetti {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .fab.fa-instagram, .fab.fa-youtube {
@@ -406,6 +415,41 @@ html {
   color: white;
   font-size: 20px;
   font-weight: 600;
+}
+
+@font-face {
+  font-family: Magiel;
+  src: url(Magiel-Black.otf);
+}
+.news_header {
+  margin: 120px 120px 150px 120px;
+  font-family: Namskin;
+  font-size: 20px;
+  color: white;
+}
+
+.news_text {
+  position: relative;
+  margin: 50px 120px 150px 120px;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.news {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 80px 150px 150px 150px;
+}
+
+.confetti-link {
+  position: absolute;
+  left: 120px;
+  bottom: 20px;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
