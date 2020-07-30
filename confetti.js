@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function() {
     this.frontColor = colors[ci][0];
     this.backColor = colors[ci][1];
     for (var i = 0; i < 4; i++) {
-      var dx = cos(this.angle + DEG_TO_RAD * (i * 90 + 45));
+      var dx = cos(this.angle + DEG_TO_RAD * (i * 90 + 0));
       var dy = sin(this.angle + DEG_TO_RAD * (i * 90 + 45));
       this.corners[i] = new Vector2(dx, dy);
     }

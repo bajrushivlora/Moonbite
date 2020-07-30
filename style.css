@@ -107,6 +107,7 @@ html {
   top: 0;
   height: 100%;
   width: 100%;
+  z-index: -1;
 }
 
 .fab.fa-instagram, .fab.fa-youtube {
@@ -430,7 +431,7 @@ html {
 
 .news_text {
   position: relative;
-  margin: 50px 120px 150px 120px;
+  margin: 50px 120px 80px 120px;
   font-family: "Roboto Mono", monospace;
   color: white;
   font-size: 20px;
@@ -442,14 +443,45 @@ html {
   flex-flow: row wrap;
   margin: 80px 150px 150px 150px;
 }
+.news_1, .news_2 {
+  display: flex;
+  align-items: center;
+  flex: 1 0;
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+}
+.news_1text, .news_2text {
+  text-align: center;
+  margin: auto;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
 
 .confetti-link {
   position: absolute;
   left: 120px;
-  bottom: 20px;
   font-family: "Roboto Mono", monospace;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
+}
+
+.interactive {
+  display: flex;
+  align-items: center;
+  flex: 1 0;
+  width: 300px;
+  height: 250px;
+  background-color: red;
+  margin: 20px;
+  transition: 0.3s ease-in-out;
+  border: 2px solid white;
+}
+
+.interactive:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */
